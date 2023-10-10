@@ -1,0 +1,69 @@
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0;
+
+}
+
+.maininfo {
+    background-color: #F7F1ED;
+    width: 100%;
+}
+
+img {
+    max-width: 90%;
+}
+
+
+.logo {
+    display: flex;
+    justify-content: center;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+}
+
+
+h2 {
+    display: flex;
+    justify-content: center;
+}
+.header {
+    display: flex;
+    justify-content: space-evenly;
+    border-width: 1px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.link {
+    display: flex;
+    justify-content: space-around;
+}
+a {
+    color: grey;
+    border-style: solid;
+    border-color: grey;
+    border-radius: 20px;
+    padding: 5px;
+    text-decoration: none;
+}
+a:hover {
+    background-color: #98002E;
+    color: #F7F1ED;
+}
+
+
+.GDESinfo {
+    background-color: #F4E2D6;
+    width: 100%;
+}
+
+.microchip {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
